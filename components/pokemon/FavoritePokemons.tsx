@@ -1,7 +1,6 @@
 import React, { FC } from 'react';
-import { Card, Grid } from '@nextui-org/react';
+import { Grid } from '@nextui-org/react';
 import { FavoriteCardPokemon } from './FavoriteCardPokemon';
-import { Pokemon } from '../../../repaso/pokemon-static/interfaces/pokemon-full';
 
 interface Props {
   pokemons: number[];
